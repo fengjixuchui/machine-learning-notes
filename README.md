@@ -1,8 +1,8 @@
-# Learning Theory Classes (August - October 2021)
+# Learning Theory Classes
 
 2022年我坚持每周六晚上8:30直播 Learning Theory 课程系列 ([微信二维码在这个链接](https://github.com/roboticcam/machine-learning-notes/blob/master/files/class_qrcode.jpg))- From 2022, I hold regular 8:30pm live broadcast on Learning Theory.
 
-Previoulsy, in 2021, I have extended my research training to all machine learning PhD students in Australian universities with more than 100 students attending via Zoom. I am looking forward to running them again later: (if you are interested to join the class, please email me)
+Previoulsy, in 2021, I have extended my research training to all machine learning PhD students at Australian universities, with over 100 students participating via Zoom. In addition to my Chinese Learning Theory class, I also look forward to having English classes in the future: (If you are interested in attending, please email me)
 
 * ### [Class 1: Introduction](https://github.com/roboticcam/machine-learning-notes/blob/master/files/1.introduction.pdf) ###
 * ### [Class 2: Concentration Inequality](https://github.com/roboticcam/machine-learning-notes/blob/master/files/2.concentration_inequality.pdf) ###
@@ -206,4 +206,4 @@ this is a re-write of the previous DPP tutorial without the time-vaying part    
 * I want to thank all the Universities where I have worked for tolerating me indulging my love of knowledge dissemination. 
 我要感谢所有我工作过的大学容忍我沉迷于知识传播
 
-* I always look for high quality PhD students in Machine Learning, both in terms of probabilistic model and Deep Learning models. Contact me on YiDa.Xu@uts.edu.au     如果你想加入我的机器学习博士生团队或有兴趣实习, 请通过YiDa.Xu@uts.edu.au与我联系。
+* I always look for high quality PhD students in Machine Learning, both in terms of probabilistic model and Deep Learning theory. Contact me on xuyida@hkbu.edu.hk     如果你想加入我的机器学习博士生团队或有兴趣合作, 请通过xuyida@hkbu.edu.hk与我联系。
