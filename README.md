@@ -1,8 +1,14 @@
+# Live Machine Learning Class:
+
+### 中文机器学习研究线上课
+2022年我坚持每周六晚上8:30直播机器学习研究课程系列 ([微信二维码在这个链接](https://github.com/roboticcam/machine-learning-notes/blob/master/files/class_qrcode.jpg))- From 2022, I hold regular 8:30pm live broadcast on Machine Learning theory.
+
+### English version
+From April 2022, I started a machine learning research seminar series every 2-3 weeks in English via Zoom. It's at 7pm Hong Kong Time. I will continue to explain machine learning using an intermediate level mathematics. The current topic is: "Gradient Descend Research". You need a solid understanding of linear algebra, calculus, probability and statistics.
+You can register via meetup https://www.meetup.com/machine-learning-hong-kong/ 
+(Back in Australia, I also conducted research training to all machine learning PhD students at Australian universities, with over 100 students participating via Zoom.)
+
 # Learning Theory Classes
-
-2022年我坚持每周六晚上8:30直播 Learning Theory 课程系列 ([微信二维码在这个链接](https://github.com/roboticcam/machine-learning-notes/blob/master/files/class_qrcode.jpg))- From 2022, I hold regular 8:30pm live broadcast on Learning Theory.
-
-Previoulsy, in 2021, I have extended my research training to all machine learning PhD students at Australian universities, with over 100 students participating via Zoom. In addition to my Chinese Learning Theory class, I also look forward to having English classes in the future: (If you are interested in attending, please email me)
 
 * ### [Class 1: Introduction](https://github.com/roboticcam/machine-learning-notes/blob/master/files/1.introduction.pdf) ###
 * ### [Class 2: Concentration Inequality](https://github.com/roboticcam/machine-learning-notes/blob/master/files/2.concentration_inequality.pdf) ###
@@ -64,7 +70,8 @@ Out-of-distribution, Neural Network Calibration, Gumbel-Max trick, Stochastic Be
 How GAN works, Traditional GAN, Mathematics on W-GAN, Info-GAN, Bayesian GAN   GAN如何工作，传统GAN，W-GAN数学，Info-GAN，贝叶斯GAN
 
 * ### [Advanced Variational Autoencoder](https://github.com/roboticcam/machine-learning-notes/blob/master/files/vb_nf.pdf) ###
-How Varational Autoencoder works, Importance Weighted Autoencoders, Normalized Flow via ELBO, Adversarial Variational Bayes,  变分自编码器的工作原理，重要性加权自编码器，通过ELBO的标准化流，对抗变分贝叶斯
+How Varational Autoencoder works, Importance Weighted Autoencoders, Normalized Flow via ELBO, Adversarial Variational Bayes, Mixture Density VAE, stick-breaking VAE
+ 变分自编码器的工作原理，重要性加权自编码器，通过ELBO的标准化流，对抗变分贝叶斯, 混合密度自编码器，stick-breaking 自编码器
 
 * ### [Bayesian Inference and Deep Learning (Seminar Talk)](https://github.com/roboticcam/machine-learning-notes/blob/master/files/bayesian_inference_deep_learning.pdf) ###
 This is a seminar talk I gave on some modern examples in which Bayesian (or probabilistic) framework is to explain, assist and assisted by Deep Learning. 这是我的演讲稿件。归纳了一些最近研究例子中，贝叶斯（或概率）框架来解释，帮助(或被帮助于)深度学习。
@@ -94,6 +101,10 @@ Monto Carlo Tree Search, alphaGo learning algorithm   蒙托卡罗树搜索，al
 Policy Gradient Theorem, Mathematics on Trusted Region Optimization in RL, Natural Gradients on TRPO, Proximal Policy Optimization (PPO), Conjugate Gradient Algorithm   政策梯度定理, RL中可信区域优化的数学,TRPO自然梯度, 近似策略优化(PPO), 共轭梯度算法
 
 # Optimization Method 优化方法
+
+* ### [Tutorial on Gradient Descend Research](https://github.com/roboticcam/machine-learning-notes/blob/master/files/gradient_desend.pdf) ###
+This is a progressive research note on Implicit Bias and Implicit Regularization of Gradient Descent Algorithms (check out my biweekly seminars), Convergence Research for Stochastic Gradient Descent etc.这是关于梯度下降算法的隐式偏差和隐式正则化的渐进式研究笔记（查看我的双周研讨会）、随机梯度下降的收敛研究等。
+
 
 * ### [Tutorial on Duality](https://github.com/roboticcam/machine-learning-notes/blob/master/files/dual.pdf) ###
 Lagrangian duality, dual function, KKT condition, example on support vector machines and Farkas Lemma 拉格朗日对偶、对偶函数、KKT 条件、支持向量机示例 和 Farkas 引理
