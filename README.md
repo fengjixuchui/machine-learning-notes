@@ -1,7 +1,7 @@
 # Live Machine Learning Class:
 
 ### 中文机器学习研究线上课
-2022年我坚持每周六晚上8:30直播机器学习研究课程系列 ([微信二维码在这个链接](https://github.com/roboticcam/machine-learning-notes/blob/master/files/class_qrcode.jpg))- From 2022, I hold regular 8:30pm live broadcast on Machine Learning theory.
+2022年我坚持每周日晚上8:30直播机器学习研究课程系列 ([微信二维码在这个链接](https://github.com/roboticcam/machine-learning-notes/blob/master/files/class_qrcode.jpg))- From 2022, I hold regular 8:30pm Sunday Night live (SNL) broadcast on Machine Learning theory.
 
 ### English version
 From April 2022, I started a machine learning research seminar series every 2-3 weeks in English via Zoom. It's at 7pm Hong Kong Time. I will continue to explain machine learning using an intermediate level mathematics. The current topic is: "Gradient Descend Research". You need a solid understanding of linear algebra, calculus, probability and statistics.
@@ -18,17 +18,33 @@ You can register via meetup https://www.meetup.com/machine-learning-hong-kong/
 * ### [Class 6: Johnson–Lindenstrauss lemma](https://github.com/roboticcam/machine-learning-notes/blob/master/files/j_l_lemma.pdf) ###
 
 
-# Infinity in Deep Learning 深度学习“无限”精彩
+# Video Tutorial to these notes 视频资料
 
-* ### [Neural Networks Gaussian Process and Neural Tangent Kernel Initialization](https://github.com/roboticcam/machine-learning-notes/blob/master/files/ntk_init_nngp.pdf) ###
+* I recorded about 20% of these notes in videos in 2015 in Mandarin (all my notes and writings are in English) You may find them on [Youtube](https://www.youtube.com/channel/UConITmGn5PFr0hxTI2tWD4Q) and [bilibili](https://space.bilibili.com/327617676) and [Youku](http://i.youku.com/i/UMzIzNDgxNTg5Ng)       
 
-The detailed derivation of (1) Neural Network Gaussian process using central limit theorem (2) Neural Tangent Kernel (NTK) for initialization. I also tried to give people a brief introduction to what is Gaussian process and kernel method to make this tutorial more complete.
-详细推导（1）使用中心极限定理的神经网络高斯过程（2）神经正切核（NTK）进行初始化. 我还尝试向大家简要介绍什么是高斯过程和内核方法，以使本教程更加完整。
+我在2015年用中文录制了这些课件中约10％的内容 (我目前的课件都是英文的)大家可以在[Youtube](https://www.youtube.com/channel/UConITmGn5PFr0hxTI2tWD4Q) [哔哩哔哩](https://space.bilibili.com/327617676) and [优酷](http://i.youku.com/i/UMzIzNDgxNTg5Ng) 下载
 
-* ### [Infinite Depth: NeuralODE and Adjoint Equation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/neuralODE_Adjoint.pdf) ###
 
-Discuss Neural ODE and in particular the use of adjoint equation in Parameter training
-讨论神经ODE，尤其是在参数训练中使用伴随方程
+# Course on Foundational Mathematics in Machine Learning 机器学习基础数学课程
+
+* ### [Class 1: Model Evaluation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/foundation_model_evaluation.pdf) ###
+common concepts and techniques for classification model evaluation, including bootstrapping sampling, confusion matrices, receiver operating characteristic (ROC) curves. 分类模型评估的常见概念和技术，包括自举抽样、混淆矩阵、接收器操作特征 (ROC) 曲线
+
+* ### [Class 2: Decision Tree](https://github.com/roboticcam/machine-learning-notes/blob/master/files/foundation_decision_tree.pdf) ###
+In addition to all the basics of decision trees, I've added a $\chi^2$ test section to this note. 除了决策树的所有基础知识之外，我还在此说明中添加了 $\chi^2$ 测试部分。
+
+* ### [Class 3: Simple Bayes](https://github.com/roboticcam/machine-learning-notes/blob/master/files/foundation_simple_bayes.pdf) ###
+This note is intended to provide an intuitive explanation of the basic concepts of probability, Bayes' theorem, graphical models of probability. 本课件旨在对概率的基本概念、贝叶斯定理、概率的图形模型提供直观的解释
+
+* ### [Class 4: Regression](https://github.com/roboticcam/machine-learning-notes/blob/master/files/foundation_regression.pdf) ###
+This note is to explain the century-old, simplest regression models: linear and polynomial regression, and some techniques for evaluating regression performance, especially the coefficient of determination (CoD) method. 这篇笔记是为了解释最简单的回归模型：线性回归和多项式回归，以及一些评估回归性能的技术，尤其是确定系数 (CoD) 方法
+
+* ### [Class 5: Neural Network](https://github.com/roboticcam/machine-learning-notes/blob/master/files/foundation_neural_network.pdf) ###
+First I show three different last output layer models: logistic, multinomial, and linear regression. Then I show the concept of gradient descent. The main part is to show a basic fully connected neural network and finally a convolutional neural network. 首先，我展示了三个不同的最后输出层模型：逻辑回归、多项式和线性回归。然后我展示了梯度下降的概念。主要部分是展示一个基本的全连接神经网络，最后是一个卷积神经网络。
+
+* ### [Class 6: Unsupervised Learning](https://github.com/roboticcam/machine-learning-notes/blob/master/files/foundation_unsupervised.pdf) ###
+This note describes some common topics in unsupervised learning. From the most obvious methods like clustering, to topic modeling (Latent Diricher Allocation) and traditional word embeddings like the word2vec algorithm. 本课件描述了无监督学习中的一些常见主题。从最明显的方法（如聚类）到主题建模和传统的词嵌入（如 word2vec 算法）。
+
 
 # Sinovation DeeCamp 创新工场DeeCAMP讲义
 
@@ -42,21 +58,6 @@ properties of Softmax, Estimating softmax without compute denominator, Probabili
 Expectation-Maximization & Matrix Capsule Networks; Determinantal Point Process & Neural Networks compression; Kalman Filter & LSTM; Model estimation & Binary classifier
 (当概率遇到神经网络) 主题包括：EM算法和矩阵胶囊网络; 行列式点过程和神经网络压缩; 卡尔曼滤波器和LSTM; 模型估计和二分类问题关系
 
-# Video Tutorial to these notes 视频资料
-
-* I recorded about 20% of these notes in videos in 2015 in Mandarin (all my notes and writings are in English) You may find them on [Youtube](https://www.youtube.com/channel/UConITmGn5PFr0hxTI2tWD4Q) and [bilibili](https://space.bilibili.com/327617676) and [Youku](http://i.youku.com/i/UMzIzNDgxNTg5Ng)       
-
-我在2015年用中文录制了这些课件中约10％的内容 (我目前的课件都是英文的)大家可以在[Youtube](https://www.youtube.com/channel/UConITmGn5PFr0hxTI2tWD4Q) [哔哩哔哩](https://space.bilibili.com/327617676) and [优酷](http://i.youku.com/i/UMzIzNDgxNTg5Ng) 下载
-
-# 3D Geometry Computer vision 3D几何计算机视觉 
-
-* ### [3D Geometry Fundamentals](https://github.com/roboticcam/machine-learning-notes/blob/master/files/cv_3d_foundation.pdf) ###
-Camera Models, Intrinsic and Extrinsic parameter estimation, Epipolar Geometry, 3D reconstruction, Depth Estimation  相机模型，内部和外部参数估计，对极几何，三维重建，图像深度估计
-
-* ### [Recent Deep 3D Geometry based Research](https://github.com/roboticcam/machine-learning-notes/blob/master/files/cv_3d_research.pdf) ###
-Recent research of the following topics: Single image to Camera Model estimation, Multi-Person 3D pose estimation from multi-view, GAN-based 3D pose estimation, Deep Structure-from-Motion, Deep Learning based Depth Estimation,  以下主题的最新研究：单图像到相机模型的估计，基于多视图的多人3D姿势估计，基于GAN的3D姿势估计，基于运动的深度结构，基于深度学习的深度估计
-
-This section is co-authored with PhD student Yang Li 本部分与博士研究生李杨合写
 
 # Deep Learning Research Topics 深度学习研究
 
@@ -72,33 +73,15 @@ How GAN works, Traditional GAN, Mathematics on W-GAN, Info-GAN, Bayesian GAN   G
 * ### [Advanced Variational Autoencoder](https://github.com/roboticcam/machine-learning-notes/blob/master/files/vb_nf.pdf) ###
 How Varational Autoencoder works, Importance Weighted Autoencoders, Normalized Flow via ELBO, Adversarial Variational Bayes, Mixture Density VAE, stick-breaking VAE
  变分自编码器的工作原理，重要性加权自编码器，通过ELBO的标准化流，对抗变分贝叶斯, 混合密度自编码器，stick-breaking 自编码器
+ 
+* ### [Infinite Depth: NeuralODE and Adjoint Equation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/neuralODE_Adjoint.pdf) ###
+
+Discuss Neural ODE and in particular the use of adjoint equation in Parameter training
+讨论神经ODE，尤其是在参数训练中使用伴随方程
 
 * ### [Bayesian Inference and Deep Learning (Seminar Talk)](https://github.com/roboticcam/machine-learning-notes/blob/master/files/bayesian_inference_deep_learning.pdf) ###
 This is a seminar talk I gave on some modern examples in which Bayesian (or probabilistic) framework is to explain, assist and assisted by Deep Learning. 这是我的演讲稿件。归纳了一些最近研究例子中，贝叶斯（或概率）框架来解释，帮助(或被帮助于)深度学习。
 
-
-# Deep Learning Basics 深度学习基础
-
-* ### [Neural Networks](https://github.com/roboticcam/machine-learning-notes/blob/master/files/neural_networks.pdf) ###
-basic neural networks and multilayer perceptron    神经网络: 基本神经网络和多层感知器
-
-* ### [Convolution Neural Networks: from basic to recent Research](https://github.com/roboticcam/machine-learning-notes/blob/master/files/cnn_beyond.pdf) ###
-detailed explanation of CNN, various Loss function, Centre Loss, contrastive Loss, Residual Networks, Capsule Networks, YOLO, SSD   卷积神经网络：从基础到最近的研究：包括卷积神经网络的详细解释，各种损失函数，中心损失函数，对比损失函数，残差网络，胶囊网络, YOLO，SSD
-
-* ### [Restricted Boltzmann Machine](https://github.com/roboticcam/machine-learning-notes/blob/master/files/rbm_gan.pdf) ###
-basic knowledge in Restricted Boltzmann Machine (RBM)   受限玻尔兹曼机(RBM)中的基础知识
-
-
-# Reinforcement Learning 强化学习
-
-* ### [Reinforcement Learning Basics](https://github.com/roboticcam/machine-learning-notes/blob/master/files/dqn.pdf) ###
-basic knowledge in reinforcement learning, Markov Decision Process, Bellman Equation and move onto Deep Q-Learning   深度增强学习: 强化学习的基础知识，马尔可夫决策过程，贝尔曼方程，深度Q学习
-
-* ### [Monto Carlo Tree Search](https://github.com/roboticcam/machine-learning-notes/blob/master/files/mcts.pdf) ###
-Monto Carlo Tree Search, alphaGo learning algorithm   蒙托卡罗树搜索，alphaGo学习算法
-
-* ### [Policy Gradient](https://github.com/roboticcam/machine-learning-notes/blob/master/files/policy_gradient.pdf) ###
-Policy Gradient Theorem, Mathematics on Trusted Region Optimization in RL, Natural Gradients on TRPO, Proximal Policy Optimization (PPO), Conjugate Gradient Algorithm   政策梯度定理, RL中可信区域优化的数学,TRPO自然梯度, 近似策略优化(PPO), 共轭梯度算法
 
 # Optimization Method 优化方法
 
@@ -114,48 +97,63 @@ Lagrangian duality, dual function, KKT condition, example on support vector mach
 A quick explanation of Conjugate Gradient Descend     共轭梯度下降的快速解释
 
 
+# Deep Learning Basics 深度学习基础
+
+* ### [Convolution Neural Networks: from basic to recent Research](https://github.com/roboticcam/machine-learning-notes/blob/master/files/cnn_beyond.pdf) ###
+detailed explanation of CNN, various Loss function, Centre Loss, contrastive Loss, Residual Networks, Capsule Networks, YOLO, SSD   卷积神经网络：从基础到最近的研究：包括卷积神经网络的详细解释，各种损失函数，中心损失函数，对比损失函数，残差网络，胶囊网络, YOLO，SSD
+
+* ### [Restricted Boltzmann Machine](https://github.com/roboticcam/machine-learning-notes/blob/master/files/rbm_cd.pdf) ###
+Restricted Boltzmann Machine (RBM) and Contrastive Divergence (CD) Basics  受限玻尔兹曼机 (RBM) 和对比发散 (CD) 基础知识
+
+
+# 3D Geometry Computer vision 3D几何计算机视觉 
+
+* ### [3D Geometry Fundamentals](https://github.com/roboticcam/machine-learning-notes/blob/master/files/cv_3d_foundation.pdf) ###
+Camera Models, Intrinsic and Extrinsic parameter estimation, Epipolar Geometry, 3D reconstruction, Depth Estimation  相机模型，内部和外部参数估计，对极几何，三维重建，图像深度估计
+
+* ### [Recent Deep 3D Geometry based Research](https://github.com/roboticcam/machine-learning-notes/blob/master/files/cv_3d_research.pdf) ###
+Recent research of the following topics: Single image to Camera Model estimation, Multi-Person 3D pose estimation from multi-view, GAN-based 3D pose estimation, Deep Structure-from-Motion, Deep Learning based Depth Estimation,  以下主题的最新研究：单图像到相机模型的估计，基于多视图的多人3D姿势估计，基于GAN的3D姿势估计，基于运动的深度结构，基于深度学习的深度估计
+
+This section is co-authored with PhD student Yang Li 本部分与博士研究生李杨合写
+
+# Reinforcement Learning 强化学习
+
+* ### [Reinforcement Learning Basics](https://github.com/roboticcam/machine-learning-notes/blob/master/files/dqn.pdf) ###
+basic knowledge in reinforcement learning, Markov Decision Process, Bellman Equation and move onto Deep Q-Learning   深度增强学习: 强化学习的基础知识，马尔可夫决策过程，贝尔曼方程，深度Q学习
+
+* ### [Monto Carlo Tree Search](https://github.com/roboticcam/machine-learning-notes/blob/master/files/mcts.pdf) ###
+Monto Carlo Tree Search, alphaGo learning algorithm   蒙托卡罗树搜索，alphaGo学习算法
+
+* ### [Policy Gradient](https://github.com/roboticcam/machine-learning-notes/blob/master/files/policy_gradient.pdf) ###
+Policy Gradient Theorem, Mathematics on Trusted Region Optimization in RL, Natural Gradients on TRPO, Proximal Policy Optimization (PPO), Conjugate Gradient Algorithm   政策梯度定理, RL中可信区域优化的数学,TRPO自然梯度, 近似策略优化(PPO), 共轭梯度算法
+
+
 # Natural Language Processing 自然语言处理
 
 * ### [Word Embeddings](https://github.com/roboticcam/machine-learning-notes/blob/master/files/word_vector.pdf) ###
-Word2Vec, skip-gram, GloVe, Fasttext   系统的介绍了自然语言处理中的“词表示”中的技巧
+GloVe, Fasttext, negative sampling   系统的介绍了自然语言处理中的“词表示”中的技巧
 
 * ### [Deep Natural Language Processing](https://github.com/roboticcam/machine-learning-notes/blob/master/files/deep_nlp.pdf) ###
 RNN, LSTM, Seq2Seq with Attenion, Beam search, Attention is all you need, Convolution Seq2Seq, Pointer Networks   深度自然语言处理：递归神经网络,LSTM,具有注意力机制的Seq2Seq，集束搜索，指针网络和 "Attention is all you need", 卷积Seq2Seq
 
 
-# Data Science 数据科学课件
+# Data Science PowerPoint and Source Code 数据科学 PowerPoint 和源代码
 
 * ### [30 minutes introduction to AI and Machine Learning](https://github.com/roboticcam/machine-learning-notes/blob/master/files/30_min_AI.pptx)
 An extremely gentle 30 minutes introduction to AI and Machine Learning. Thanks to my PhD student Haodong Chang for assist editing   30分钟介绍人工智能和机器学习, 感谢我的学生常浩东进行协助编辑
 
-* ### [Regression methods](https://github.com/roboticcam/machine-learning-notes/blob/master/files/regression.pdf) ###
-Classification: Logistic and Softmax; Regression: Linear, polynomial; Mix Effect model **[[costFunction.m]](https://github.com/roboticcam/matlab_demos/blob/master/costFunction.m)** and **[[soft_max.m]](https://github.com/roboticcam/matlab_demos/blob/master/soft_max.m)** 
-
-分类介绍: Logistic回归和Softmax分类; 回归介绍：线性回归，多项式回归; 混合效果模型 **[[costFunction.m]](https://github.com/roboticcam/matlab_demos/blob/master/costFunction.m)** 和 **[[soft_max.m]](https://github.com/roboticcam/matlab_demos/blob/master/soft_max.m)**
-
+* **[[costFunction.m]](https://github.com/roboticcam/matlab_demos/blob/master/costFunction.m)** 
+* **[[soft_max.m]](https://github.com/roboticcam/matlab_demos/blob/master/soft_max.m)** 
+* **[[industry data science Jupyter notebook]](https://github.com/roboticcam/machine-learning-notes/blob/master/files/industry_master_class.ipynb)**
 
 * ### [Recommendation system](https://github.com/roboticcam/machine-learning-notes/blob/master/files/recommendation.pdf) ###
 collaborative filtering, Factorization Machines, Non-Negative Matrix factorisation, Multiplicative Update Rule     推荐系统: 协同过滤，分解机，非负矩阵分解，和期中“乘法更新规则”的介绍
 
-* ### [Dimension Reduction](https://github.com/roboticcam/machine-learning-notes/blob/master/files/dimension_reduction.pdf) ###
-classic PCA and t-SNE     经典的PCA降维法和t-SNE降维法
 
-* ### [Introduction to Data Analytics](https://github.com/roboticcam/machine-learning-notes/blob/master/files/AI_and_machine_learning.pdf) and [associate Jupyter notebook](https://github.com/roboticcam/machine-learning-notes/blob/master/files/industry_master_class.ipynb) ###
-Supervised vs Unsupervised Learning, Classification accuracy    数据分析简介和相关的jupyter notebook，包括监督与无监督学习，分类准确性
-
-
-# Probability and Statistics Background 概率论与数理统计基础课件
-
-* ### [Bayesian model](https://github.com/roboticcam/machine-learning-notes/blob/master/files/bayesian.pdf) ###
-revision on Bayes model include Bayesian predictive model, conditional expectation     复习贝叶斯模型，包括贝叶斯预测模型，条件期望等基础知识
+# Probabilistic Model 概率模型课件
 
 * ### [Probabilistic Estimation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/probability.pdf) ###
 some useful distributions, conjugacy, MLE, MAP, Exponential family and natural parameters     一些常用的分布，共轭特性，最大似然估计, 最大后验估计, 指数族和自然参数
-
-* ### [Statistics Properties](https://github.com/roboticcam/machine-learning-notes/blob/master/files/statistics.pdf) ###
-useful statistical properties to help us prove things, include Chebyshev and Markov inequality     一些非常有用的统计属性可以帮助我们在机器学习中的证明，包括切比雪夫和马尔科夫不等式
-
-# Probabilistic Model 概率模型课件
 
 * ### [Expectation Maximisation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/em.pdf) ###
 Proof of convergence for E-M, examples of E-M through Gaussian Mixture Model, **[[gmm_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/gmm_demo.m)** and **[[kmeans_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/kmeans_demo.m)** and **[[bilibili video]](https://www.bilibili.com/video/av23901379)**
