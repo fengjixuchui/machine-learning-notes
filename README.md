@@ -48,14 +48,25 @@ This note describes some common topics in unsupervised learning. From the most o
 
 # Course on Intemediate Mathematics in Machine Learning 机器学习中级数学课程
 
-I'm currently updating/validating and correcting notes I've written over the past decade and incorporating them into an introduction/intermediate/advanced machine learning course. I will gradually delete all my Beamer notes and replace them with technical report notes. 我目前正在更新/验证和更正我在过去十年中写的笔记，并将它们合并到入门/中级/高级机器学习课程中。 我会逐渐删除我所有的 Beamer 笔记，并用技术报告笔记代替它们。
+I'm currently updating/validating and correcting notes I've written over the past decade and incorporating them into an introduction/intermediate/advanced machine learning course. I will gradually delete all my previous Beamer notes and replace them with technical report notes. 我目前正在更新/验证和更正我在过去十年中写的笔记，并将它们合并到入门/中级/高级机器学习课程中。 我会逐渐删除之前写的 Beamer 笔记，并用技术报告笔记代替它们。
 
-* ### [Expectation Maximisation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/intermediate_em.pdf) ###
+* ### [Expectation Maximization](https://github.com/roboticcam/machine-learning-notes/blob/master/files/intermediate_em.pdf) ###
 Proof of convergence for E-M, examples of E-M through Gaussian Mixture Model, **[[gmm_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/gmm_demo.m)** and **[[kmeans_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/kmeans_demo.m)** and **[[bilibili video]](https://www.bilibili.com/video/av23901379)**
 最大期望E-M的收敛证明, E-M到高斯混合模型的例子, **[[gmm_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/gmm_demo.m)** 和 **[[kmeans_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/kmeans_demo.m)** 和 **[[B站视频链接]](https://www.bilibili.com/video/av23901379)**
 
 * ### [Markov Chain Monte Carlo](https://github.com/roboticcam/machine-learning-notes/blob/master/files/intermediate_mcmc.pdf) ###
 MCMC background, including random matrix, power method convergence, detailed balance and PageRank algorithm, some basic MCMC methods, including Metropolitan-Hasting, Gibbs, and LDA as an example MCMC背景，包括随机矩阵、幂法收敛、详细平衡和PageRank算法，一些基本的MCMC方法，包括Metropolitan-Hasting、Gibbs和LDA为例
+
+
+* ### [Variational Inference](https://github.com/roboticcam/machine-learning-notes/blob/master/files/intermediate_vb.pdf) ###
+Explain Variational Bayes both the non-exponential and exponential family distribution **[[vb_normal_gamma.m]](https://github.com/roboticcam/matlab_demos/blob/master/vb_normal_gamma.m)** and **[[bilibili video]](https://www.bilibili.com/video/av24062247)**   解释变分贝叶斯非指数和指数族分布。**[[vb_normal_gamma.m]](https://github.com/roboticcam/matlab_demos/blob/master/vb_normal_gamma.m)** 和 **[[B站视频链接]](https://www.bilibili.com/video/av24062247)** 
+
+* ### [State Space Model (Dynamic model)](https://github.com/roboticcam/machine-learning-notes/blob/master/files/intermediate_ssm.pdf) ###
+explain in detail of Kalman Filter  **[[bilibili video]](https://www.bilibili.com/video/av24225243)**, **[[kalman_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/kalman_demo.m)** and Hidden Markov Model **[[bilibili video]](https://www.bilibili.com/video/av24132174)** 
+
+状态空间模型(动态模型) 详细解释了卡尔曼滤波器
+**[[B站视频链接]](https://www.bilibili.com/video/av24225243)**, **[[kalman_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/kalman_demo.m)**
+和隐马尔可夫模型 **[[B站视频链接]](https://www.bilibili.com/video/av24132174)** 
 
 
 # Sinovation DeeCamp 创新工场DeeCAMP讲义
@@ -167,31 +178,17 @@ collaborative filtering, Factorization Machines, Non-Negative Matrix factorisati
 * ### [Probabilistic Estimation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/probability.pdf) ###
 some useful distributions, conjugacy, MLE, MAP, Exponential family and natural parameters     一些常用的分布，共轭特性，最大似然估计, 最大后验估计, 指数族和自然参数
 
-* ### [State Space Model (Dynamic model)](https://github.com/roboticcam/machine-learning-notes/blob/master/files/dynamic_model.pdf) ###
-explain in detail of Kalman Filter  **[[bilibili video]](https://www.bilibili.com/video/av24225243)**, **[[kalman_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/kalman_demo.m)** and Hidden Markov Model **[[bilibili video]](https://www.bilibili.com/video/av24132174)** 
-
-状态空间模型(动态模型) 详细解释了卡尔曼滤波器
-**[[B站视频链接]](https://www.bilibili.com/video/av24225243)**, **[[kalman_demo.m]](https://github.com/roboticcam/matlab_demos/blob/master/kalman_demo.m)**
-和隐马尔可夫模型 **[[B站视频链接]](https://www.bilibili.com/video/av24132174)** 
-
-# Inference 推断课件
-
-* ### [Variational Inference](https://github.com/roboticcam/machine-learning-notes/blob/master/files/variational.pdf) ###
-explain Variational Bayes both the non-exponential and exponential family distribution plus stochastic variational inference. **[[vb_normal_gamma.m]](https://github.com/roboticcam/matlab_demos/blob/master/vb_normal_gamma.m)** and **[[bilibili video]](https://www.bilibili.com/video/av24062247)**     变分推导的介绍: 解释变分贝叶斯非指数和指数族分布加上随机变分推断。**[[vb_normal_gamma.m]](https://github.com/roboticcam/matlab_demos/blob/master/vb_normal_gamma.m)** 和 **[[B站视频链接]](https://www.bilibili.com/video/av24062247)** 
+# Monte-Carlo Inference 蒙特卡洛推理
 
 * ### [Introduction to Monte Carlo](https://github.com/roboticcam/machine-learning-notes/blob/master/files/introduction_monte_carlo.pdf) ###
-inverse CDF, rejection, adaptive rejection, importance sampling **[[adaptive_rejection_sampling.m]](https://github.com/roboticcam/matlab_demos/blob/master/adaptive_rejection_sampling.m)** and **[[hybrid_gmm.m]](https://github.com/roboticcam/matlab_demos/blob/master/hybrid_gmm.m)**
-
-累积分布函数逆采样, 拒绝式采样, 自适应拒绝式采样, 重要性采样 **[[adaptive_rejection_sampling.m]](https://github.com/roboticcam/matlab_demos/blob/master/adaptive_rejection_sampling.m)** 和 **[[hybrid_gmm.m]](https://github.com/roboticcam/matlab_demos/blob/master/hybrid_gmm.m)**
+inverse CDF, rejection, adaptive rejection, importance sampling **[[adaptive_rejection_sampling.m]](https://github.com/roboticcam/matlab_demos/blob/master/adaptive_rejection_sampling.m)** and **[[hybrid_gmm.m]](https://github.com/roboticcam/matlab_demos/blob/master/hybrid_gmm.m)** 累积分布函数逆采样, 拒绝式采样, 自适应拒绝式采样, 重要性采样 **[[adaptive_rejection_sampling.m]](https://github.com/roboticcam/matlab_demos/blob/master/adaptive_rejection_sampling.m)** 和 **[[hybrid_gmm.m]](https://github.com/roboticcam/matlab_demos/blob/master/hybrid_gmm.m)**
 
 * ### [Markov Chain Monte Carlo](https://github.com/roboticcam/machine-learning-notes/blob/master/files/markov_chain_monte_carlo.pdf) ###
-M-H, Gibbs, Slice Sampling, Elliptical Slice sampling, Swendesen-Wang, demonstrate collapsed Gibbs using LDA **[[lda_gibbs_example.m]](https://github.com/roboticcam/matlab_demos/blob/master/lda_gibbs_example.m)** and **[[test_autocorrelation.m]](https://github.com/roboticcam/matlab_demos/blob/master/test_autocorrelation.m)** and **[[gibbs.m]](https://github.com/roboticcam/matlab_demos/blob/master/gibbs.m)** and **[[bilibili video]](https://www.bilibili.com/video/av23980130)**
-
-马尔可夫链蒙特卡洛的各种方法 **[[lda_gibbs_example.m]](https://github.com/roboticcam/matlab_demos/blob/master/lda_gibbs_example.m)** 和 **[[test_autocorrelation.m]](https://github.com/roboticcam/matlab_demos/blob/master/test_autocorrelation.m)** 和 **[[gibbs.m]](https://github.com/roboticcam/matlab_demos/blob/master/gibbs.m)** 和 **[[B站视频链接]](https://www.bilibili.com/video/av23980130)**
+M-H, Gibbs, Slice Sampling, Elliptical Slice sampling, Swendesen-Wang, demonstrate collapsed Gibbs using LDA **[[lda_gibbs_example.m]](https://github.com/roboticcam/matlab_demos/blob/master/lda_gibbs_example.m)** and **[[test_autocorrelation.m]](https://github.com/roboticcam/matlab_demos/blob/master/test_autocorrelation.m)** and **[[gibbs.m]](https://github.com/roboticcam/matlab_demos/blob/master/gibbs.m)** and **[[bilibili video]](https://www.bilibili.com/video/av23980130)** 马尔可夫链蒙特卡洛的各种方法 **[[lda_gibbs_example.m]](https://github.com/roboticcam/matlab_demos/blob/master/lda_gibbs_example.m)** 和 **[[test_autocorrelation.m]](https://github.com/roboticcam/matlab_demos/blob/master/test_autocorrelation.m)** 和 **[[gibbs.m]](https://github.com/roboticcam/matlab_demos/blob/master/gibbs.m)** 和 **[[B站视频链接]](https://www.bilibili.com/video/av23980130)**
 
 
 * ### [Particle Filter (Sequential Monte-Carlo)](https://github.com/roboticcam/machine-learning-notes/blob/master/files/particle_filter.pdf) ###
-Sequential Monte-Carlo, Condensational Filter algorithm, Auxiliary Particle Filter **[[bilibili video]](https://www.bilibili.com/video/av24285449)**     粒子滤波器（序列蒙特卡洛）**[[B站视频链接]](https://www.bilibili.com/video/av24285449)**
+Sequential Monte-Carlo, Condensational Filter algorithm, Auxiliary Particle Filter **[[bilibili video]](https://www.bilibili.com/video/av24285449)**    粒子滤波器（序列蒙特卡洛）**[[B站视频链接]](https://www.bilibili.com/video/av24285449)**
 
 # Advanced Probabilistic Model 高级概率模型课件
 
